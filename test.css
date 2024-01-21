@@ -1,0 +1,186 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    display: flex;
+    /* border: 2px solid olive; */
+    background-color: rgb(0, 255, 255);
+    /* list-style-type: none; */
+    justify-content: space-between;
+    height: 70px;
+    background-color: black;
+    color: aliceblue;
+    position: sticky;
+}
+
+.header_right .right{
+    /* border: 1px solid gray; */
+    display: flex;
+    display: inline-block;
+    padding: 20px;
+    color: aliceblue;
+}
+.right a{
+    text-decoration: none;
+    color: #fff;
+}
+h3{
+    padding: 20px;
+}
+.homepage{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url(https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped);
+    background-position: center 65%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* .content{ */
+    /* background: url(https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped);
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    position: relative; */
+
+.homepage .content{
+    display: flex;
+    height: 85%;
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homepage .content .text{
+    color: #fff;
+   /* border: 6px solid goldenrod; */
+   text-align: center;
+   margin-bottom: 50px;
+}
+.content h1{
+    font-weight: 800;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.content a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    /* text-align: center; */
+    /* border: 2px solid #fff; */
+    background-color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    /* margin-top: 10px; */
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    
+    
+}
+.section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0 0;
+}
+
+.services{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card img{
+    margin-bottom: 20px;
+     width: 120px;
+    height: 120px; 
+     border-radius: 100%; 
+     object-fit: cover; 
+}
+ section .cards {
+    margin-top: 50px;
+    display: flex;
+    padding: 0 10px; 
+    justify-content: space-between;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+.card {
+        background: #fff;
+        box-shadow: 10px 10px 10px;
+          padding: 40px 15px; 
+        /* margin-left: 20px; */
+        list-style: none;
+        text-align: center;
+        border-radius: 5px;
+        width: calc(100% / 2 - 15px);
+    margin-bottom: 30px;
+        
+    }
+    /* p{
+        display: block;
+       margin-top: 5px;
+       padding: 0 15px;
+    } */
+    p {
+         display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+     p {
+        padding: 0 15px;
+        margin-top: 5px;
+    }
+    h3{
+        display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    }
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    }
+    section h2 {
+        font-size: 2rem; 
+    }
+    img{
+         overflow-clip-margin: content-box;
+    overflow: clip; 
+    }
+    .about h2{
+        margin: 0 auto;
+    max-width: 1200px;
+    }
+    section h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    section > p{
+        text-align: center;
+    }
+    .rom{
+        display: block;
+        
+        
+    }
